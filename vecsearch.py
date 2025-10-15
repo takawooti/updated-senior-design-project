@@ -123,5 +123,6 @@ def index(datapath, vecpath, maxdocs):
             metadatas= metadatas,
             ids= ids )
             batch.clear()
+            
 if __name__ == "__main__":
     run()
